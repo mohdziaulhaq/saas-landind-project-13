@@ -1,7 +1,7 @@
 {
-    "name": "live-class-project-12",
+    "name": "live-class-project-13",
     "version": "1.0.0",
-    "description": "Live-Class-Project-12",
+    "description": "Live-Class-Project-13",
     "main": "index.html",
     "scripts": {
       "start": "serve",
