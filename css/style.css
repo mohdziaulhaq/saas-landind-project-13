@@ -174,3 +174,71 @@ nav button{
 .card:first-child .card-content h3{
     margin-top: 4px;
 }
+
+@media screen and (max-width: 1268px) {
+    
+    nav ul{
+        margin-left: 0;
+    }
+    .hero-one{
+        flex-direction: column-reverse;
+    }
+
+    .hero-one-content{
+        width: 65%;
+        text-align: center;
+        margin-bottom: 100px;
+    }
+
+    .hero-two{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hero-two-content{
+        margin: 0;
+    }
+
+    .cards{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card{
+        height: 313px;
+    }
+}
+
+@media screen and (max-width: 750px){
+    nav{
+        flex-direction: column;
+        align-items: center;
+        height: 45vh;;
+    }
+    nav ul{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-one-image img{
+        width: 300px;
+    }
+
+    .hero-one-content h1{
+        font-size: 25px;
+    }
+
+    .hero-two-image{
+        width: 300px;
+    }
+
+    .hero-two-content h3{
+        font-size: 25px;
+        width: 250px;
+    }
+
+    .hero-two-content ul li{
+        width: 300px;
+        margin-left: 0em;
+    }
+}
